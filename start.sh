@@ -1,10 +1,10 @@
 #!/usr/bin/env bash
 #Petit script pour démarrer facilement Fastsdcpu dans un container LXC sous Proxmox, avec surtout la redirection du port sur le local network
-#zf250303.1757
+#zf250303.1859
 
 # source: 
 
-echo -e "\Démarrage de Fastsdcpu...
+echo -e "Démarrage de Fastsdcpu...
 
 "
 
