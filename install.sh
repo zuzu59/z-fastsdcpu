@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 #Petit script pour installer facilement Fastsdcpu dans un container LXC sous Proxmox et ses outils qui vont bien
-#zf250303.1757
+#zf250303, zf250304.1103
 
 # source: 
 
@@ -17,7 +17,7 @@ echo ""
 
 apt update ; apt install python3.10-venv libgl1 socat
 mkdir  ~/dev ; cd ~/dev
-git clone git@github.com:rupeshs/fastsdcpu.git
+git clone https://github.com/rupeshs/fastsdcpu.git
 cd fastsdcpu/
 chmod +x install.sh 
 ./install.sh 
